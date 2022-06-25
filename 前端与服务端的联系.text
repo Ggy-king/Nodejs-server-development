@@ -32,3 +32,29 @@
         广义：各种客户端 如APP PC客户端等
     }
 }
+
+# http协议介绍
+1 规定了客户端和服务端如何通信
+2 是互联网世界数据通信的标准和基石
+
+# http协议通用
+1 url 后端接口的地址
+2 method 请求方法
+3 状态码
+
+# http协议-Request
+1 Request 请求
+2 Request Body 请求时发送给后端的数据
+3 Request Content-type 发送数据的格式 如json
+
+# http协议-Response
+1 Response 返回
+2 Response Body 返回时发送给后端的数据
+3 Response Content-type 返回数据的格式 如json
+
+
+# 一个前端网页可能会从不同服务器加载数据
+
+{
+    服务一般分为静态服务和数据服务（动态服务）
+}

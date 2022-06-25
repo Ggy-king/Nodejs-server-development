@@ -1,0 +1,54 @@
+# 服务端处理和返回数据
+
+# 定义前端请求的url规则--路由
+
+1路由是什么 {
+    路由(router)
+    是服务器的入口规则
+    和前端的约定
+}
+
+2 路由包含什么{
+    
+    定义method 如post get
+    定义url规则 如/api/list /api/create
+    定义输入输出格式（Request body Response body）
+}
+
+3 路由和url{
+    路由是规则
+    url是具体的形式
+}
+
+
+# 用Request获取数据 用Response返回数据
+@简写req 和 res
+$request获取method url body
+$response返回状态码 content-type body
+
+
+
+# 读取和存储数据
+
+数据库{
+    数据库 专职做数据的存储和查询
+    数据库是一个独立的系统 不是nodejs专属
+    可以先不管数据库是什么 可以先暂且认为数据库是一个JSON
+}
+1 {
+    数据库的数据具有唯一性
+
+}
+2 数据库的基本操作{
+    新增
+    删除
+    修改
+    查询
+    查询条件
+    排序
+}
+3 {
+    前端
+    服务端
+    数据库
+}
