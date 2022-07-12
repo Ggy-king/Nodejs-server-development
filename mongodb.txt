@@ -1,0 +1,39 @@
+# mongodb数据库
+
+# 关于数据库
+{
+    存储数据 要用专业的数据库软件
+    数据库是一个独立的系统 和服务端语言无关
+    数据库有很多种 我们选择mongodb
+}
+# mongodb安装
+{
+    安装mongodb服务端(windows和mac)
+    安装mongodb客户端(windows和mac)
+}
+# mongodb使用
+{
+    创建一个数据库(database)
+    创建集合(collection)
+    文档(document)的增删改查
+}
+# mongodb概念
+{
+    数据库database/db
+    集合collection
+    文档document 
+    bson
+    NoSQL
+}
+# 连接nodejs
+{
+    安装mongodb npm 插件
+    连接数据库
+    操作文档document
+}
+# mongoose
+{
+    Schema和Model
+    基于Model操作数据
+    完善留言板路由的功能
+}
